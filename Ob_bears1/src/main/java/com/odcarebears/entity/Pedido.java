@@ -30,6 +30,7 @@ public class Pedido {
 	@ManyToOne
 	@JoinColumn(name="user_id")
 	private User userId;
+	
 }
 
 
