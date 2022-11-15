@@ -9,5 +9,5 @@ public class ObBearsApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ObBearsApplication.class, args);
 	}
-
+	
 }
