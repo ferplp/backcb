@@ -41,12 +41,12 @@ public class Producto {
 	private Long foto3;
 
 	@ManyToOne
-	@JoinColumn(name="id_categoria")
+	@JoinColumn(name="id_categoria",nullable=false, updatable=false)
 	private Categoria idCategoria;
-
-	;
-	public Categoria getIdCategoria() {
-	return idCategoria;
+	
+	
+	public Long getIdCategoria() {
+	return this.idCategoria.getIdCategoria();
 }
 
 public void setIdCategoria(Categoria idCategoria) {
