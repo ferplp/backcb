@@ -15,7 +15,7 @@ public class Categoria {
 	private String nombreCategoria;
 	
 	@Column(name="imagen_categoria", length=155)
-	private String direccionEnvio;
+	private String imagenCategoria;
 
 	public Long getIdCategoria() {
 		return idCategoria;
@@ -33,12 +33,12 @@ public class Categoria {
 		this.nombreCategoria = nombreCategoria;
 	}
 
-	public String getDireccionEnvio() {
-		return direccionEnvio;
+	public String getImagenCategoria() {
+		return imagenCategoria;
 	}
 
-	public void setDireccionEnvio(String direccionEnvio) {
-		this.direccionEnvio = direccionEnvio;
+	public void setImagenCategoria(String imagenCategoria) {
+		this.imagenCategoria = imagenCategoria;
 	}
 	
 }
